@@ -1,0 +1,19 @@
+<%- include('partials/header') -%>
+
+<% for (var i = 0; i < productlist.length; i++) { %>
+
+<HR>
+<div class="alert alert-primary">
+  <H1><%= productlist[i].Name %></H1>
+</div>
+<HR>
+
+<P><img width="300px" height="200px" src="/images/<%= productlist[i].urlImg%>"></P>
+<P>Price: <%= productlist[i].Price%> / <%= productlist[i].Unit%> </P>
+
+<P>Information: <%= productlist[i].Information%> </P>
+
+<% } %>
+
+
+<%- include('partials/footer') -%>
