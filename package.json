@@ -1,12 +1,13 @@
 {
-  "name": "a",
+  "name": "W07.01",
   "version": "1.0.0",
   "description": "",
-  "main": "07.01.00.mvc02.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "keywords": [],
+  "author": "NNTu-AdTekDev",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -15,6 +16,6 @@
     "express": "^4.17.1",
     "express-session": "^1.17.1",
     "mongodb": "^3.5.9",
-    "mongoose": "^5.9.21"
+    "mongoose": "^5.9.20"
   }
 }
